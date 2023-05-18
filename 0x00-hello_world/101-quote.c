@@ -11,9 +11,9 @@
 int main(void)
 {
 	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	int i;
+	long unsigned int i;
 
-	for (i; i < strlen(str); i++)
+	for (i = 0; i < strlen(str); i++)
 	{
 		putchar(str[i]);
 	}
