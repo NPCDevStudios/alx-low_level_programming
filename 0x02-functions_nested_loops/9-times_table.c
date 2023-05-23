@@ -6,26 +6,20 @@
  * Return: void
  * --- by NPCdev ---
 */
-char asciMult (int a, int b)
-{
-
-}
 void times_table(void)
 {
 	int i, j;
 
-	for (i = 48; i <= 57; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 48; j <= 57; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			_putchar(asciMult(i,j));
-			if (j < 57)
+			printf("%d",i*j);
+			if (j < 9)
 			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
+				printf(", ");
 			}
 		}
-	_putchar('\n');
+	printf("\n");
 	}
 }
