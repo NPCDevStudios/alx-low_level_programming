@@ -2,6 +2,8 @@
 
 /**
  * *_strcpy - Copy Source string into Destination string
+ * @src: Source string
+ * @dest: Destination string
  * Return: Pointer to first character of destination string
  * --- by NPCdev ---
 */
@@ -15,7 +17,7 @@ char *_strcpy(char *dest, char *src)
 
 	for (i = 0; i < len && src[i] != '\0'; i++)
 		dest[i] = src[i];
-	for (; i < len; i++)
+	for (i = 0; i < len; i++)
 		dest[i] = '\0';
-	return dest;
+	return (dest);
 }
