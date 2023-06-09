@@ -2,7 +2,9 @@
 
 /**
  * main - Print number of program arguments
- * Return: 0 when done
+ * @argc: number of arguments
+ * @argv: Pointer to array of arguments
+ * Return: 0 when success
  * --- by NPCdev ---
 */
 

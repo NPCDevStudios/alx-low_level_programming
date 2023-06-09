@@ -2,13 +2,15 @@
 
 /**
  * main - Print program name
- * Return: 0 when done, 1 if error
+ * @argc: number of arguments
+ * @argv: Pointer to array of arguments
+ * Return: 0 when success
  * --- by NPCdev ---
 */
 
 int main(int argc, char **argv)
 {
 	(void) argc;
-	printf("%s\n", argv[0]); 
+	printf("%s\n", argv[0]);
 	return (0);
 }
